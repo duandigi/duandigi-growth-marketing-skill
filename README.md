@@ -1,5 +1,9 @@
 # Duandigi Growth Marketing Skills
 
+<p align="center">
+  <img src="assets/social-preview.png" alt="Duandigi Growth Marketing Skills — 30 evidence-first AI Agent Skills for multi-channel growth marketing (SEO, paid media, social, local search, CRM) for Claude Code" width="100%">
+</p>
+
 [![Agent Skills compatible](https://img.shields.io/badge/Agent%20Skills-compatible-5B5BD6)](https://agentskills.io/)
 [![Claude Code ready](https://img.shields.io/badge/Claude%20Code-ready-111111)](https://code.claude.com/docs/en/skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

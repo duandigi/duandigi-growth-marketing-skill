@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "duandigi-growth-marketing-skill",
-  "displayName": "Duan Growth Skills",
+  "displayName": "Duandigi Growth Marketing Skills",
   "version": "0.2.0",
-  "description": "Evidence-first growth strategy, multi-channel data integration, AI evaluation, experimentation, approval, and ethical optimization skills.",
+  "description": "Evidence-first AI Agent Skills for growth marketing: multi-channel marketing analytics (SEO, paid media, social, local search, CRM), secure account integration, AI evaluation, experimentation, and approval-safe optimization for Claude Code.",
   "author": {
     "name": "Duan Digi",
-    "url": "https://github.com/duandigi"
+    "url": "https://duandigi.com"
   },
   "homepage": "https://github.com/duandigi/duandigi-growth-marketing-skill",
   "repository": "https://github.com/duandigi/duandigi-growth-marketing-skill",
@@ -14,14 +14,20 @@
   "keywords": [
     "agent-skills",
     "ai-evaluation",
+    "ai-marketing",
     "analytics",
     "attribution",
+    "claude-code",
+    "crm",
     "experimentation",
     "growth-hacking",
     "growth-loops",
     "growth-marketing",
     "marketing-analytics",
+    "marketing-automation",
     "multi-channel",
-    "oauth"
+    "oauth",
+    "paid-media",
+    "seo"
   ]
 }

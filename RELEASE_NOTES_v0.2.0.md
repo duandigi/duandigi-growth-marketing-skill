@@ -1,8 +1,8 @@
-# Duan Growth Skills v0.2.0
+# Duandigi Growth Marketing Skills v0.2.0
 
 ## Multi-channel AI growth intelligence
 
-This release expands Duan Growth Skills from a growth reasoning toolkit into an integration-ready operating layer for marketing and growth systems.
+This release expands Duandigi Growth Marketing Skills from a growth reasoning toolkit into an integration-ready operating layer for marketing and growth systems.
 
 ### Highlights
 

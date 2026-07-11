@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Duan Growth Skills.
+Thank you for helping improve Duandigi Growth Marketing Skills.
 
 ## What makes a useful contribution
 

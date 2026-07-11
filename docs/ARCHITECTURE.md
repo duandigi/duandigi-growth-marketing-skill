@@ -1,6 +1,6 @@
 # Architecture
 
-Duan Growth Skills v0.2 separates reasoning from credentials and execution.
+Duandigi Growth Marketing Skills v0.2 separates reasoning from credentials and execution.
 
 ```text
 User authentication and organization roles

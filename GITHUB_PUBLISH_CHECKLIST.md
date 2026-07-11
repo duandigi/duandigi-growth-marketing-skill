@@ -31,7 +31,7 @@
 ```bash
 git init
 git add .
-git commit -m "feat: publish Duan Growth Skills v0.2.0"
+git commit -m "feat: publish Duandigi Growth Marketing Skills v0.2.0"
 git branch -M main
 git remote add origin https://github.com/duandigi/duandigi-growth-marketing-skill.git
 git push -u origin main
@@ -49,14 +49,14 @@ git push -u origin release/v0.2.0
 Open a pull request, review the diff, merge after CI passes, then tag:
 
 ```bash
-git tag -a v0.2.0 -m "Duan Growth Skills v0.2.0"
+git tag -a v0.2.0 -m "Duandigi Growth Marketing Skills v0.2.0"
 git push origin v0.2.0
 ```
 
 ## Suggested release title
 
-`Duan Growth Skills v0.2.0 — multi-channel AI growth intelligence`
+`Duandigi Growth Marketing Skills v0.2.0 — multi-channel AI growth intelligence`
 
 ## Suggested announcement
 
-Duan Growth Skills v0.2.0 is an open, evidence-first collection of 30 Agent Skills for growth strategy, secure account integration, project-to-asset mapping, data quality, cross-channel normalization, SEO, paid media, social, local search, CRM, anomaly detection, attribution, AI evaluation, health scoring, experimentation, and approval-safe optimization. The release includes mock connectors, deterministic utilities, schemas, 90 evals, and public benchmark cases. Real credentials are never included, and high-impact actions remain human-approved.
+Duandigi Growth Marketing Skills v0.2.0 is an open, evidence-first collection of 30 Agent Skills for growth strategy, secure account integration, project-to-asset mapping, data quality, cross-channel normalization, SEO, paid media, social, local search, CRM, anomaly detection, attribution, AI evaluation, health scoring, experimentation, and approval-safe optimization. The release includes mock connectors, deterministic utilities, schemas, 90 evals, and public benchmark cases. Real credentials are never included, and high-impact actions remain human-approved.

@@ -1,4 +1,4 @@
--- Reference schema for a MySQL-compatible Duan Growth OS implementation.
+-- Reference schema for a MySQL-compatible Duandigi Growth OS implementation.
 -- Store encrypted secrets in a dedicated vault. This schema stores opaque secret references only.
 
 CREATE TABLE organizations (

@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version 0.2.0](https://img.shields.io/badge/version-0.2.0-blue.svg)](CHANGELOG.md)
 
-> **Bộ Agent Skills theo nguyên tắc evidence-first cho growth marketing.** Gồm **30 skill** giúp AI agent chạy trọn một chu trình phân tích **marketing đa kênh** — SEO, Paid Media, Social, Local Search và CRM — cùng kết nối tài khoản an toàn, AI tự đánh giá, thử nghiệm và tối ưu có phê duyệt. Chạy trong **Claude Code** và mọi client tương thích Agent Skills.
+> **Bộ Agent Skills theo nguyên tắc evidence-first cho growth marketing.** Gồm **31 skill** giúp AI agent chạy trọn một chu trình phân tích **marketing đa kênh** — SEO, Paid Media, Social, Email/Lifecycle, Local Search và CRM — cùng kết nối tài khoản an toàn, AI tự đánh giá, thử nghiệm và tối ưu có phê duyệt. Chạy trong **Claude Code** và mọi client tương thích Agent Skills.
 
 Dành cho growth marketer, chuyên viên SEO, người chạy performance, agency và founder SaaS muốn một AI agent suy luận dựa trên **bằng chứng, độ tin cậy và nguồn gốc dữ liệu** — không phán bừa.
 
@@ -13,7 +13,7 @@ Dành cho growth marketer, chuyên viên SEO, người chạy performance, agenc
 
 ---
 
-## Bộ 30 skill làm được gì
+## Bộ 31 skill làm được gì
 
 Chu trình vận hành:
 
@@ -27,7 +27,7 @@ Mọi kết luận đều gắn với **bằng chứng, độ tin cậy và ghi 
 - Ánh xạ GSC, GA4, Google Ads, Meta, WordPress, CRM và webhook vào đúng dự án.
 - Kiểm tra token, quyền, độ mới và tình trạng đồng bộ.
 - Chuẩn hóa dữ liệu nhưng không trộn lẫn các khái niệm khác nhau.
-- Phân tích riêng SEO, Paid Media, Social, Local Search và CRM.
+- Phân tích riêng SEO, Paid Media, Social, Email/Lifecycle, Local Search và CRM.
 - Phát hiện bất thường, đối chiếu attribution, tính health score có giải thích.
 - AI tạo evaluation card: phát hiện, bằng chứng, độ tin cậy, dữ liệu thiếu, ảnh hưởng và hành động tiếp theo.
 - Hành động rủi ro phải qua approval, preview, giới hạn, log, xác minh và rollback.
@@ -41,7 +41,7 @@ Mọi kết luận đều gắn với **bằng chứng, độ tin cậy và ghi 
 - **Agency & consultant** — một lớp phân tích đa kênh, đa khách hàng, cô lập chặt theo dự án.
 - **Founder SaaS & indie hacker** — có báo cáo growth và health score mà không cần cả team analytics.
 
-## 30 skill
+## 31 skill
 
 ### Growth và Experimentation
 
@@ -53,7 +53,7 @@ Mọi kết luận đều gắn với **bằng chứng, độ tin cậy và ghi 
 
 ### AI Channel Evaluation
 
-`ai-marketing-evaluator`, `channel-performance-audit`, `seo-channel-analysis`, `paid-media-analysis`, `social-channel-analysis`, `local-search-analysis`, `crm-funnel-analysis`, `marketing-anomaly-detection`, `cross-channel-attribution`, `marketing-health-scoring`, `executive-growth-summary`, `action-approval-planner`
+`ai-marketing-evaluator`, `channel-performance-audit`, `seo-channel-analysis`, `paid-media-analysis`, `social-channel-analysis`, `email-lifecycle-analysis`, `local-search-analysis`, `crm-funnel-analysis`, `marketing-anomaly-detection`, `cross-channel-attribution`, `marketing-health-scoring`, `executive-growth-summary`, `action-approval-planner`
 
 Kèm **9 Claude Code agent tùy chọn** điều phối integration, data quality, phân tích kênh, đánh giá đa kênh và kiểm soát phê duyệt.
 

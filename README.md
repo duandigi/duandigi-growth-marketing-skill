@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version 0.2.0](https://img.shields.io/badge/version-0.2.0-blue.svg)](CHANGELOG.md)
 
-> **Evidence-first AI Agent Skills for growth marketing.** A pack of **30 portable skills** that give an AI agent a complete operating cycle for **multi-channel marketing analytics** — SEO, paid media, social, local search, and CRM — plus secure account integration, AI evaluation, experimentation, and approval-safe optimization. Runs in **Claude Code** and any Agent Skills–compatible client.
+> **Evidence-first AI Agent Skills for growth marketing.** A pack of **31 portable skills** that give an AI agent a complete operating cycle for **multi-channel marketing analytics** — SEO, paid media, social, email/lifecycle, local search, and CRM — plus secure account integration, AI evaluation, experimentation, and approval-safe optimization. Runs in **Claude Code** and any Agent Skills–compatible client.
 
 Built for growth marketers, SEO specialists, performance marketers, agencies, and SaaS founders who want an AI agent that reasons from **evidence, confidence, and lineage** — not guesswork.
 
@@ -21,7 +21,7 @@ Built for growth marketers, SEO specialists, performance marketers, agencies, an
 
 - [Why Duandigi Growth Marketing Skills](#why-duandigi-growth-marketing-skills)
 - [Who it is for](#who-it-is-for)
-- [The 30 skills](#the-30-skills)
+- [The 31 skills](#the-31-skills)
 - [How it works](#how-it-works)
 - [Install in Claude Code](#install-in-claude-code)
 - [Quick start — run the demo](#quick-start--run-the-demo)
@@ -42,7 +42,7 @@ Growth teams drown in disconnected dashboards, mismatched metric definitions, an
 
 Every finding is tied to **evidence, a confidence level, and a note on missing data**. Channels stay lineage-preserved instead of blended into false precision. And **high-impact actions always require named human approval** — nothing is spent, published, messaged, or deleted autonomously.
 
-The project follows the open [Agent Skills](https://agentskills.io/) structure and ships portable skills, optional Claude Code agents, deterministic Python utilities, JSON contracts, mock connectors, worked examples, 90 evals, and a community testing protocol.
+The project follows the open [Agent Skills](https://agentskills.io/) structure and ships portable skills, optional Claude Code agents, deterministic Python utilities, JSON contracts, mock connectors, worked examples, 93 evals, and a community testing protocol.
 
 ## Who it is for
 
@@ -52,7 +52,7 @@ The project follows the open [Agent Skills](https://agentskills.io/) structure a
 - **Marketing agencies & consultants** — a repeatable, multi-client, multi-channel intelligence layer with strict project-to-asset isolation.
 - **SaaS founders & indie hackers** — a low-cost way to get executive growth summaries and health scores without a full analytics team.
 
-## The 30 skills
+## The 31 skills
 
 ### Growth strategy and experimentation
 
@@ -64,7 +64,7 @@ The project follows the open [Agent Skills](https://agentskills.io/) structure a
 
 ### Channel and AI evaluation
 
-`ai-marketing-evaluator`, `channel-performance-audit`, `seo-channel-analysis`, `paid-media-analysis`, `social-channel-analysis`, `local-search-analysis`, `crm-funnel-analysis`, `marketing-anomaly-detection`, `cross-channel-attribution`, `marketing-health-scoring`, `executive-growth-summary`, `action-approval-planner`
+`ai-marketing-evaluator`, `channel-performance-audit`, `seo-channel-analysis`, `paid-media-analysis`, `social-channel-analysis`, `email-lifecycle-analysis`, `local-search-analysis`, `crm-funnel-analysis`, `marketing-anomaly-detection`, `cross-channel-attribution`, `marketing-health-scoring`, `executive-growth-summary`, `action-approval-planner`
 
 Plus **9 optional Claude Code agents** that orchestrate integration, data quality, channel analysis, cross-channel evaluation, and approval control.
 
@@ -158,7 +158,7 @@ Yes — MIT licensed. Use it commercially, fork it, and adapt it.
 No. It ships with sanitized mock connectors and fixtures so you can evaluate every skill with zero credentials.
 
 **Which channels and providers are covered?**
-Google Search Console, Google Analytics 4, Google Ads, Meta Marketing, WordPress, a generic CRM, and signed webhooks.
+Google Search Console, Google Analytics 4, Google Ads, Meta Marketing, TikTok Ads, LinkedIn Ads, YouTube, Google Business Profile, Klaviyo (email/ESP), WordPress, a generic CRM, and signed webhooks.
 
 **Does it store my credentials?**
 No. Secrets never live in skills, prompts, examples, logs, or commits. Real credential handling belongs to a separately deployed app.

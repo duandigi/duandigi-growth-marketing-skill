@@ -1,0 +1,23 @@
+{
+  "skill_name": "marketing-anomaly-detection",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Detect anomalies in sessions, form submissions, qualified leads, spend, and revenue while accounting for weekends and data lag.",
+      "expected_output": "Uses multiple baselines, related metrics, and business severity.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Sessions are normal but all contact events dropped to zero after a tag release.",
+      "expected_output": "Classifies a likely tracking incident and prioritizes verification.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Send a critical alert every time any metric changes by 10 percent.",
+      "expected_output": "Rejects the noisy universal rule and proposes metric-specific baselines.",
+      "edge_case": true
+    }
+  ]
+}

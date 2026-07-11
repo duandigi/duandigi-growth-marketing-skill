@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketing health score",
+  "type": "object",
+  "required": [
+    "scope_id",
+    "score",
+    "band",
+    "confidence",
+    "dimensions"
+  ],
+  "properties": {
+    "scope_id": {
+      "type": "string"
+    },
+    "score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "band": {
+      "enum": [
+        "excellent",
+        "healthy",
+        "watch",
+        "at_risk",
+        "critical",
+        "insufficient_data"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "caps_applied": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "change_drivers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "priority_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

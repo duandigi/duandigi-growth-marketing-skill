@@ -1,0 +1,56 @@
+{
+  "scope_id": "project-demo",
+  "dimensions": [
+    {
+      "name": "data_health",
+      "score": 86,
+      "weight": 0.18,
+      "confidence": 0.95,
+      "available": true
+    },
+    {
+      "name": "acquisition",
+      "score": 74,
+      "weight": 0.16,
+      "confidence": 0.85,
+      "available": true
+    },
+    {
+      "name": "activation",
+      "score": 62,
+      "weight": 0.14,
+      "confidence": 0.75,
+      "available": true
+    },
+    {
+      "name": "conversion",
+      "score": 58,
+      "weight": 0.17,
+      "confidence": 0.8,
+      "available": true
+    },
+    {
+      "name": "retention",
+      "score": null,
+      "weight": 0.1,
+      "confidence": 0.0,
+      "available": false
+    },
+    {
+      "name": "revenue",
+      "score": 69,
+      "weight": 0.15,
+      "confidence": 0.7,
+      "available": true
+    },
+    {
+      "name": "experiment_velocity",
+      "score": 55,
+      "weight": 0.1,
+      "confidence": 0.9,
+      "available": true
+    }
+  ],
+  "critical_flags": [],
+  "minimum_coverage": 0.65
+}

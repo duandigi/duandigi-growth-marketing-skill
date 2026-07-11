@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-marketing-evaluator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Evaluate a project where organic sessions rose, contact events were flat, qualified leads fell, and mobile form errors increased.",
+      "expected_output": "Prioritizes measurement and mobile form reliability before claiming an SEO or demand problem.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Evaluate all eight projects and identify the three most important decisions this week.",
+      "expected_output": "Uses project-specific goals, data fitness, impact, confidence, and portfolio constraints.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Revenue is unavailable but ad clicks increased. Declare the campaign successful.",
+      "expected_output": "Refuses the unsupported success claim and states what can and cannot be concluded.",
+      "edge_case": true
+    }
+  ]
+}

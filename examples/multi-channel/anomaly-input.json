@@ -1,0 +1,44 @@
+{
+  "scope_id": "project-demo",
+  "metric_name": "qualified_leads",
+  "minimum_history": 6,
+  "z_threshold": 2.2,
+  "percent_threshold": 0.25,
+  "series": [
+    {
+      "period": "2026-W20",
+      "value": 42,
+      "complete": true
+    },
+    {
+      "period": "2026-W21",
+      "value": 45,
+      "complete": true
+    },
+    {
+      "period": "2026-W22",
+      "value": 43,
+      "complete": true
+    },
+    {
+      "period": "2026-W23",
+      "value": 44,
+      "complete": true
+    },
+    {
+      "period": "2026-W24",
+      "value": 41,
+      "complete": true
+    },
+    {
+      "period": "2026-W25",
+      "value": 46,
+      "complete": true
+    },
+    {
+      "period": "2026-W26",
+      "value": 21,
+      "complete": true
+    }
+  ]
+}

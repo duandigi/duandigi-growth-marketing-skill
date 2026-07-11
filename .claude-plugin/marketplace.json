@@ -1,0 +1,15 @@
+{
+  "name": "duan-growth",
+  "owner": {
+    "name": "Duan Digi",
+    "url": "https://github.com/duandigi"
+  },
+  "plugins": [
+    {
+      "name": "duan-growth-skills",
+      "source": ".",
+      "description": "Evidence-first growth strategy, account integration, multi-channel AI evaluation, experimentation, and approval skills",
+      "version": "0.2.0"
+    }
+  ]
+}

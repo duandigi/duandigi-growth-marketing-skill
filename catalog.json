@@ -1,0 +1,216 @@
+{
+  "repository": "duandigi/duan-growth-skills",
+  "version": "0.2.0",
+  "skills": [
+    {
+      "name": "account-connection-planner",
+      "description": "Use this skill when planning how users, organizations, and projects should connect external marketing, analytics, advertising, social, CRM, commerce, or website accounts without collecting provider passwords.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/account-connection-planner"
+    },
+    {
+      "name": "action-approval-planner",
+      "description": "Use this skill when converting an AI recommendation into a safe observe, investigate, prepare, approve, execute, verify, or rollback workflow for marketing, website, CRM, advertising, content, or data actions.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/action-approval-planner"
+    },
+    {
+      "name": "ai-marketing-evaluator",
+      "description": "Use this skill when producing an evidence-backed AI evaluation of a project, portfolio, channel, campaign, landing page, content group, funnel, lead source, or revenue outcome from normalized multi-source data.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/ai-marketing-evaluator"
+    },
+    {
+      "name": "channel-performance-audit",
+      "description": "Use this skill when auditing one marketing channel from account summary down to campaigns, content, audiences, queries, landing pages, conversions, qualified outcomes, revenue, and operational constraints.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/channel-performance-audit"
+    },
+    {
+      "name": "connection-health-monitor",
+      "description": "Use this skill when diagnosing or monitoring whether external marketing-data connections are authorized, reachable, correctly mapped, fresh, complete, and safe to use.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/connection-health-monitor"
+    },
+    {
+      "name": "crm-funnel-analysis",
+      "description": "Use this skill when analyzing lead capture, qualification, response time, pipeline stages, sales outcomes, retention, reactivation, source quality, revenue, and CRM data integrity.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/crm-funnel-analysis"
+    },
+    {
+      "name": "cross-channel-attribution",
+      "description": "Use this skill when reconciling provider-reported, analytics-observed, CRM-sourced, assisted, first-touch, last-touch, and revenue-confirmed contributions across marketing channels.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/cross-channel-attribution"
+    },
+    {
+      "name": "cross-channel-data-normalization",
+      "description": "Use this skill when converting data from analytics, search, advertising, social, local, CRM, commerce, or website systems into a shared project, channel, asset, metric, date, currency, and attribution contract.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/cross-channel-data-normalization"
+    },
+    {
+      "name": "executive-growth-summary",
+      "description": "Use this skill when producing a daily alert, weekly growth review, monthly executive review, client report, or portfolio briefing from validated multi-channel evaluations and experiment results.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/executive-growth-summary"
+    },
+    {
+      "name": "growth-engineering-brief",
+      "description": "Use this skill when translating a growth hypothesis into an implementation-ready brief for a landing page, free tool, calculator, onboarding change, tracking event, CRM automation, referral mechanism, integration, or WordPress change.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-engineering-brief"
+    },
+    {
+      "name": "growth-ethics-review",
+      "description": "Use this skill when reviewing a growth idea, experiment, automation, message, incentive, tracking plan, or loop for manipulation, spam, privacy, accessibility, discrimination, brand, legal, or platform-policy risk.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-ethics-review"
+    },
+    {
+      "name": "growth-experiment-analysis",
+      "description": "Use this skill when evaluating a completed or in-progress growth experiment, A/B test, before-after test, cohort comparison, or rollout to decide whether to scale, iterate, stop, or gather more data.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-experiment-analysis"
+    },
+    {
+      "name": "growth-experiment-design",
+      "description": "Use this skill when turning a growth opportunity into a testable experiment with a falsifiable hypothesis, intervention, audience, primary metric, guardrail metrics, tracking plan, decision rule, and rollback plan.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-experiment-design"
+    },
+    {
+      "name": "growth-experiment-prioritization",
+      "description": "Use this skill when scoring, ranking, sequencing, or selecting growth experiments and research tasks across one or many projects using impact, confidence, strategic fit, reusability, revenue relevance, effort, risk, and dependencies.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-experiment-prioritization"
+    },
+    {
+      "name": "growth-funnel-analysis",
+      "description": "Use this skill when mapping, diagnosing, or comparing a growth funnel across acquisition, activation, retention, referral, and revenue, including service-business lead funnels and product-led onboarding funnels.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-funnel-analysis"
+    },
+    {
+      "name": "growth-loop-design",
+      "description": "Use this skill when designing, auditing, or improving a compounding growth loop such as referral, review, content, SEO, product, community, partnership, user-generated content, or tool-led growth.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-loop-design"
+    },
+    {
+      "name": "growth-metrics-diagnosis",
+      "description": "Use this skill when investigating growth metric changes, anomalies, attribution conflicts, reporting discrepancies, or unclear performance across analytics, search, ads, CRM, product, or revenue systems.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-metrics-diagnosis"
+    },
+    {
+      "name": "growth-model-design",
+      "description": "Use this skill when defining or revising a growth model, North Star Metric, input metrics, value moment, customer journey, or metric tree for a product, service, content business, marketplace, or multi-project portfolio.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-model-design"
+    },
+    {
+      "name": "growth-opportunity-finder",
+      "description": "Use this skill when identifying evidence-backed growth opportunities, quick wins, constraints, or next actions across acquisition, activation, retention, referral, revenue, content, SEO, paid media, CRM, or product experience.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-opportunity-finder"
+    },
+    {
+      "name": "growth-portfolio-management",
+      "description": "Use this skill when comparing, prioritizing, or allocating people, budget, experiments, and attention across multiple products, clients, websites, or growth projects while preserving project-specific goals and constraints.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-portfolio-management"
+    },
+    {
+      "name": "growth-retrospective",
+      "description": "Use this skill when converting completed growth work, campaigns, launches, experiments, or failures into reusable lessons, decision records, playbooks, and changes to future operating rules.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/growth-retrospective"
+    },
+    {
+      "name": "local-search-analysis",
+      "description": "Use this skill when analyzing Google Business Profile, map visibility, local landing pages, reviews, calls, directions, website clicks, locations, service areas, and local lead quality.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/local-search-analysis"
+    },
+    {
+      "name": "marketing-anomaly-detection",
+      "description": "Use this skill when detecting, validating, classifying, and escalating unusual changes in marketing, analytics, advertising, social, CRM, revenue, connection, or tracking metrics.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/marketing-anomaly-detection"
+    },
+    {
+      "name": "marketing-data-quality-audit",
+      "description": "Use this skill when auditing whether marketing, analytics, CRM, revenue, conversion, or experiment data is complete, consistent, timely, deduplicated, comparable, and fit for a specific decision.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/marketing-data-quality-audit"
+    },
+    {
+      "name": "marketing-health-scoring",
+      "description": "Use this skill when calculating an explainable marketing or growth health score for a project, channel, or portfolio using data health, acquisition, activation, conversion, retention, revenue, experiment velocity, and risk.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/marketing-health-scoring"
+    },
+    {
+      "name": "paid-media-analysis",
+      "description": "Use this skill when analyzing Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, or other paid media from account totals down to campaign, ad group, audience, keyword, search term, creative, placement, landing page, qualified lead, revenue, and margin.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/paid-media-analysis"
+    },
+    {
+      "name": "permission-scope-review",
+      "description": "Use this skill when reviewing OAuth scopes, API permissions, WordPress roles, service-account access, or connector capabilities for least privilege, user trust, and staged read or write access.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/permission-scope-review"
+    },
+    {
+      "name": "project-asset-mapping",
+      "description": "Use this skill when mapping connected provider accounts and assets such as sites, properties, ad accounts, pages, profiles, locations, CRM pipelines, and WordPress installations to the correct projects.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/project-asset-mapping"
+    },
+    {
+      "name": "seo-channel-analysis",
+      "description": "Use this skill when analyzing organic search performance from Search Console, analytics, crawling, landing pages, queries, local visibility, content groups, conversions, qualified leads, and revenue.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/seo-channel-analysis"
+    },
+    {
+      "name": "social-channel-analysis",
+      "description": "Use this skill when analyzing organic or paid social performance across content, formats, topics, creators, pages, profiles, audiences, reach, engagement, traffic, leads, assisted outcomes, and content operations.",
+      "license": "MIT",
+      "version": "0.2.0",
+      "path": "skills/social-channel-analysis"
+    }
+  ]
+}

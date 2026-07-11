@@ -1,0 +1,43 @@
+{
+  "project_id": "example-home-service",
+  "name": "Example Home Service",
+  "business_model": "Local service business with phone, messaging, and form leads",
+  "primary_goal": "Increase qualified booked jobs without lowering service quality",
+  "north_star_metric": {
+    "name": "qualified_jobs_booked",
+    "definition": "Booked jobs that meet service-area and service-fit criteria",
+    "data_source": "CRM when available"
+  },
+  "funnel": [
+    {
+      "stage": "qualified_visit",
+      "success_condition": "Visitor reaches a relevant service page",
+      "metric": "qualified_landing_sessions"
+    },
+    {
+      "stage": "contact",
+      "success_condition": "Visitor calls, messages, or submits a form",
+      "metric": "contact_events"
+    },
+    {
+      "stage": "qualified_lead",
+      "success_condition": "Lead meets location and service criteria",
+      "metric": "qualified_leads"
+    },
+    {
+      "stage": "booked_job",
+      "success_condition": "Lead confirms a paid service",
+      "metric": "qualified_jobs_booked"
+    }
+  ],
+  "constraints": [
+    "Small team",
+    "Incomplete CRM revenue history",
+    "Changes require approval"
+  ],
+  "approval_rules": [
+    "No production publishing without approval",
+    "No bulk messaging",
+    "No ad-spend changes"
+  ]
+}

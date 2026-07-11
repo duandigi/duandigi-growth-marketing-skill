@@ -1,0 +1,23 @@
+{
+  "skill_name": "channel-performance-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit our organic social channel from reach to assisted qualified leads and identify which content formats serve awareness versus conversion.",
+      "expected_output": "Evaluates the channel against its role and drills into content and business outcomes.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Audit a paid campaign with conversions but no CRM qualification data.",
+      "expected_output": "Reports platform efficiency while withholding lead-quality conclusions.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Compare email open rate directly with Google Ads CTR and rank the better channel.",
+      "expected_output": "Rejects the invalid metric comparison and reframes by channel role and outcomes.",
+      "edge_case": true
+    }
+  ]
+}

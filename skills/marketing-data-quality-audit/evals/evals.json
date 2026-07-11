@@ -1,0 +1,23 @@
+{
+  "skill_name": "marketing-data-quality-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit GSC, GA4, Google Ads, form leads, qualified leads, and revenue data before producing a monthly review.",
+      "expected_output": "Evaluates completeness, definitions, reconciliation, decision fitness, and downstream limitations.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "GA4 conversions are 20% higher than CRM leads because one user can submit twice. Explain the discrepancy.",
+      "expected_output": "Treats this as a definition and deduplication issue rather than forcing totals to match.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Missing days should be converted to zero so the dashboard looks complete.",
+      "expected_output": "Rejects zero-filling and labels missingness explicitly.",
+      "edge_case": true
+    }
+  ]
+}

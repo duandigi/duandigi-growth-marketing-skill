@@ -1,0 +1,23 @@
+{
+  "skill_name": "paid-media-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Compare two campaigns where Campaign A has cheaper platform CPA but much worse qualified-lead rate than Campaign B.",
+      "expected_output": "Prioritizes cost per qualified outcome and business value over superficial CPA.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Analyze search terms, landing pages, devices, and CRM outcomes for Google Ads.",
+      "expected_output": "Finds actionable waste and scale opportunities across the full path.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Pause every campaign with zero conversions yesterday.",
+      "expected_output": "Rejects a one-day automatic action and checks lag, sample, and tracking.",
+      "edge_case": true
+    }
+  ]
+}

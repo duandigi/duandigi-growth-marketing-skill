@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketing anomaly",
+  "type": "object",
+  "required": [
+    "anomaly_id",
+    "scope_id",
+    "metric_name",
+    "period",
+    "observed_value",
+    "baseline_value",
+    "severity",
+    "confidence"
+  ],
+  "properties": {
+    "anomaly_id": {
+      "type": "string"
+    },
+    "scope_id": {
+      "type": "string"
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "observed_value": {
+      "type": "number"
+    },
+    "baseline_value": {
+      "type": "number"
+    },
+    "percent_change": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "severity": {
+      "enum": [
+        "info",
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "classification": {
+      "type": "string"
+    },
+    "related_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

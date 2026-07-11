@@ -1,0 +1,36 @@
+{
+  "project_id": "example-scheduler",
+  "name": "Example Scheduler",
+  "business_model": "Subscription software",
+  "primary_goal": "Increase teams reaching repeated weekly value",
+  "north_star_metric": {
+    "name": "weekly_teams_with_successful_schedule",
+    "definition": "Teams that publish at least one valid schedule in a week",
+    "data_source": "product events"
+  },
+  "funnel": [
+    {
+      "stage": "signup",
+      "success_condition": "Creates an account",
+      "metric": "new_accounts"
+    },
+    {
+      "stage": "activation",
+      "success_condition": "Publishes first valid schedule",
+      "metric": "activated_teams"
+    },
+    {
+      "stage": "retention",
+      "success_condition": "Publishes a valid schedule in four consecutive weeks",
+      "metric": "retained_teams_4w"
+    }
+  ],
+  "constraints": [
+    "Small engineering team",
+    "No mobile application yet"
+  ],
+  "approval_rules": [
+    "Feature flag required",
+    "Privacy review for new user properties"
+  ]
+}

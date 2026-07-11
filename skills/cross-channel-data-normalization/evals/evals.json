@@ -1,0 +1,23 @@
+{
+  "skill_name": "cross-channel-data-normalization",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Normalize GSC clicks, GA4 sessions, Google Ads conversions, Meta leads, CRM qualified leads, and invoiced revenue.",
+      "expected_output": "Keeps distinct concepts separate while mapping them into a shared project and channel model.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Two platforms both claim the same sale. Define a normalized representation.",
+      "expected_output": "Preserves each platform claim and a separate deduplicated business outcome.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Add Google reach and Meta reach to get total unique people reached.",
+      "expected_output": "Rejects invalid cross-platform uniqueness assumptions.",
+      "edge_case": true
+    }
+  ]
+}

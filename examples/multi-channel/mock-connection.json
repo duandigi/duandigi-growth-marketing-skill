@@ -1,0 +1,19 @@
+{
+  "connection_id": "conn-google-demo",
+  "organization_id": "org-demo",
+  "provider": "google-search-console",
+  "provider_account_id": "account-demo",
+  "access_mode": "observe",
+  "status": "healthy",
+  "granted_capabilities": [
+    "list_assets",
+    "read_search_analytics"
+  ],
+  "secret_reference": "vault://demo/not-a-real-secret",
+  "last_successful_sync_at": "2026-07-10T22:00:00Z",
+  "expires_at": null,
+  "metadata": {
+    "mock": true,
+    "fixture": "examples/multi-channel/mock-provider-data.json"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "marketing-health-scoring",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Score a service project with strong SEO, weak qualified-lead conversion, no retention data, and degraded CRM sync.",
+      "expected_output": "Applies confidence limits and prevents traffic from masking conversion and data problems.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Explain why the score rose after a tracking-definition change rather than real performance growth.",
+      "expected_output": "Separates measurement change from performance change.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Give every project a score out of 100 even when most dimensions are missing.",
+      "expected_output": "Refuses false precision and marks insufficient or capped scores.",
+      "edge_case": true
+    }
+  ]
+}

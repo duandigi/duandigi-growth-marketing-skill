@@ -1,0 +1,29 @@
+{
+  "opportunity_id": "opp-001",
+  "project_id": "example-home-service",
+  "stage": "activation",
+  "problem": "Relevant service pages receive qualified visits, but too few visitors start a contact action.",
+  "evidence": [
+    {
+      "claim": "Qualified landing sessions increased in the last complete 8-week period.",
+      "status": "confirmed",
+      "source": "analytics export"
+    },
+    {
+      "claim": "Contact-event rate did not increase with traffic.",
+      "status": "confirmed",
+      "source": "analytics export"
+    },
+    {
+      "claim": "Visitors may lack price and response-time clarity.",
+      "status": "inferred",
+      "source": "page review; customer interviews missing"
+    }
+  ],
+  "target_metric": "qualified_contact_rate",
+  "mechanism": "Reduce uncertainty at the decision point with clearer eligibility, price range, and response expectation.",
+  "dependencies": [
+    "Validate contact tracking",
+    "Review actual sales objections"
+  ]
+}

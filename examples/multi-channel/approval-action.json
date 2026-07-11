@@ -1,0 +1,19 @@
+{
+  "action_id": "action-demo-001",
+  "organization_id": "org-demo",
+  "project_id": "project-demo",
+  "provider": "wordpress",
+  "asset_id": "https://example.com",
+  "action_type": "create_draft_landing_page_revision",
+  "scope": {"path": "/service-a", "mode": "draft_only"},
+  "approval_tier": 2,
+  "status": "pending",
+  "requested_by": "agent-growth-engineer",
+  "approved_by": null,
+  "expires_at": "2026-07-18T00:00:00Z",
+  "preconditions": ["Mobile form tracking verified", "Current page exported", "Draft-only WordPress capability confirmed"],
+  "preview": {"summary": "Clarify eligibility, honest price range, and response expectation near the primary CTA."},
+  "verification": ["Draft exists and is not public", "Tracking events are present in preview", "Content and legal review complete"],
+  "rollback": ["Delete the draft", "Retain exported source for audit"],
+  "limits": {"publish": false, "affected_urls": 1}
+}

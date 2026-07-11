@@ -1,0 +1,10 @@
+[project]
+name = "duan-growth-skills"
+version = "0.2.0"
+description = "Evidence-first Agent Skills for multi-channel growth intelligence and optimization"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Duan Digi"}]
+
+[tool.ruff]
+line-length = 100

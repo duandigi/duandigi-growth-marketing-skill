@@ -1,0 +1,15 @@
+{
+  "provider": "generic-webhook",
+  "auth_type": "signed_webhook",
+  "default_mode": "observe",
+  "assets": [
+    "endpoint"
+  ],
+  "capabilities": [
+    "receive_events"
+  ],
+  "notes": [
+    "Verify signatures, timestamps, replay protection, idempotency, and schema version."
+  ],
+  "official_docs": []
+}

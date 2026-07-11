@@ -1,0 +1,23 @@
+{
+  "skill_name": "cross-channel-attribution",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Google Ads, Meta Ads, GA4, and CRM all report different conversion totals. Reconcile them for a budget review.",
+      "expected_output": "Explains definitions and windows, preserves evidence layers, and avoids forced equality.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Estimate social’s role when users first engage on LinkedIn and later convert through branded search.",
+      "expected_output": "Uses assisted evidence and states causal limitations.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Add all platform conversions and call the total incremental revenue.",
+      "expected_output": "Rejects double counting and false causal attribution.",
+      "edge_case": true
+    }
+  ]
+}

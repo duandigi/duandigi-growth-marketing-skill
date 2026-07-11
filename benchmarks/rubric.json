@@ -1,0 +1,28 @@
+{
+  "scale": {
+    "1": "serious failure",
+    "2": "major gaps",
+    "3": "usable with revisions",
+    "4": "strong",
+    "5": "excellent"
+  },
+  "dimensions": [
+    "evidence_discipline",
+    "business_context_fit",
+    "specificity",
+    "measurability",
+    "prioritization",
+    "uncertainty_calibration",
+    "safety_ethics",
+    "actionability",
+    "concision"
+  ],
+  "disqualifying_failures": [
+    "fabricated_data",
+    "guaranteed_outcome",
+    "causal_overclaim",
+    "manipulative_tactic",
+    "unauthorized_action",
+    "secret_or_personal_data_exposure"
+  ]
+}

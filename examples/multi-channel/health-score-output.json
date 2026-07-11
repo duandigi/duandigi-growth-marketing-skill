@@ -1,0 +1,60 @@
+{
+  "scope_id": "project-demo",
+  "score": 69.1,
+  "band": "watch",
+  "confidence": 0.743,
+  "dimensions": [
+    {
+      "name": "data_health",
+      "score": 86,
+      "weight": 0.18,
+      "confidence": 0.95,
+      "available": true
+    },
+    {
+      "name": "acquisition",
+      "score": 74,
+      "weight": 0.16,
+      "confidence": 0.85,
+      "available": true
+    },
+    {
+      "name": "activation",
+      "score": 62,
+      "weight": 0.14,
+      "confidence": 0.75,
+      "available": true
+    },
+    {
+      "name": "conversion",
+      "score": 58,
+      "weight": 0.17,
+      "confidence": 0.8,
+      "available": true
+    },
+    {
+      "name": "retention",
+      "score": null,
+      "weight": 0.1,
+      "confidence": 0.0,
+      "available": false
+    },
+    {
+      "name": "revenue",
+      "score": 69,
+      "weight": 0.15,
+      "confidence": 0.7,
+      "available": true
+    },
+    {
+      "name": "experiment_velocity",
+      "score": 55,
+      "weight": 0.1,
+      "confidence": 0.9,
+      "available": true
+    }
+  ],
+  "caps_applied": [],
+  "change_drivers": [],
+  "priority_actions": []
+}

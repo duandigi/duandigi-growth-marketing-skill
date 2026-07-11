@@ -1,0 +1,37 @@
+{
+  "experiments": [
+    {
+      "id": "exp-001",
+      "title": "Decision-assistance block",
+      "impact": 8,
+      "confidence": 6,
+      "strategic_fit": 9,
+      "reusability": 7,
+      "revenue_relevance": 8,
+      "effort": 4,
+      "risk": 2
+    },
+    {
+      "id": "exp-002",
+      "title": "Improve lead-source and qualification tracking",
+      "impact": 7,
+      "confidence": 9,
+      "strategic_fit": 10,
+      "reusability": 9,
+      "revenue_relevance": 9,
+      "effort": 5,
+      "risk": 2
+    },
+    {
+      "id": "exp-003",
+      "title": "Publish fifty near-duplicate location pages",
+      "impact": 5,
+      "confidence": 2,
+      "strategic_fit": 3,
+      "reusability": 2,
+      "revenue_relevance": 4,
+      "effort": 7,
+      "risk": 9
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_id": "exp-001",
+  "project_id": "example-home-service",
+  "hypothesis": "Because qualified visitors may lack price and response-time clarity, adding an eligibility summary, honest price range, and response expectation near the primary CTA should increase qualified contact rate without increasing unqualified-lead rate.",
+  "audience": "New visitors to two high-intent service pages",
+  "intervention": "Add a concise decision-assistance block near the primary CTA on selected pages.",
+  "primary_metric": "qualified_contact_rate",
+  "guardrail_metrics": [
+    "unqualified_lead_rate",
+    "page_engagement_rate",
+    "complaint_rate"
+  ],
+  "decision_rule": "Scale only if the primary metric improves materially and no guardrail worsens beyond the pre-agreed threshold after the minimum complete measurement window.",
+  "status": "draft",
+  "scores": {
+    "impact": 8,
+    "confidence": 6,
+    "strategic_fit": 9,
+    "reusability": 7,
+    "revenue_relevance": 8,
+    "effort": 4,
+    "risk": 2
+  }
+}

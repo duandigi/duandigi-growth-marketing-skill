@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duandigi.com/schemas/growth-opportunity.schema.json",
+  "title": "Growth Opportunity",
+  "type": "object",
+  "required": [
+    "opportunity_id",
+    "project_id",
+    "stage",
+    "problem",
+    "evidence",
+    "target_metric"
+  ],
+  "properties": {
+    "opportunity_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "stage": {
+      "enum": [
+        "acquisition",
+        "activation",
+        "retention",
+        "referral",
+        "revenue",
+        "measurement",
+        "operations"
+      ]
+    },
+    "problem": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "status"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "inferred",
+              "assumed",
+              "unknown"
+            ]
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "target_metric": {
+      "type": "string"
+    },
+    "mechanism": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

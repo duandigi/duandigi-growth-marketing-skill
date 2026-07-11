@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duandigi.com/schemas/growth-project-context.schema.json",
+  "title": "Growth Project Context",
+  "type": "object",
+  "required": [
+    "project_id",
+    "name",
+    "business_model",
+    "primary_goal",
+    "north_star_metric"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "business_model": {
+      "type": "string"
+    },
+    "primary_goal": {
+      "type": "string"
+    },
+    "north_star_metric": {
+      "type": "object",
+      "required": [
+        "name",
+        "definition"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "definition": {
+          "type": "string"
+        },
+        "data_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "funnel": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stage",
+          "success_condition"
+        ],
+        "properties": {
+          "stage": {
+            "type": "string"
+          },
+          "success_condition": {
+            "type": "string"
+          },
+          "metric": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approval_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

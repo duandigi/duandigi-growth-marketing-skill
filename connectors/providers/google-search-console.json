@@ -1,0 +1,19 @@
+{
+  "provider": "google-search-console",
+  "auth_type": "oauth2",
+  "default_mode": "observe",
+  "assets": [
+    "site_property"
+  ],
+  "capabilities": [
+    "list_assets",
+    "read_search_analytics",
+    "inspect_index_status"
+  ],
+  "notes": [
+    "Use current official OAuth scopes. Read-only analysis should not request write access."
+  ],
+  "official_docs": [
+    "https://developers.google.com/webmaster-tools/v1/how-tos/authorizing"
+  ]
+}

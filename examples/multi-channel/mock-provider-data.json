@@ -1,0 +1,95 @@
+{
+  "assets": [
+    {
+      "asset_type": "site_property",
+      "asset_id": "sc-domain:example.com",
+      "asset_name": "example.com",
+      "url": "https://example.com"
+    },
+    {
+      "asset_type": "site_property",
+      "asset_id": "https://blog.example.com/",
+      "asset_name": "Example Blog",
+      "url": "https://blog.example.com/"
+    }
+  ],
+  "records": [
+    {
+      "date": "2026-07-01",
+      "project_id": "project-demo",
+      "organization_id": "org-demo",
+      "provider": "google-search-console",
+      "channel": "organic_search",
+      "asset_id": "sc-domain:example.com",
+      "object_type": "landing_page",
+      "object_id": "/service-a",
+      "metric": "clicks",
+      "value": 120,
+      "unit": "count",
+      "dimensions": {
+        "query_group": "commercial"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "project_id": "project-demo",
+      "organization_id": "org-demo",
+      "provider": "google-search-console",
+      "channel": "organic_search",
+      "asset_id": "sc-domain:example.com",
+      "object_type": "landing_page",
+      "object_id": "/service-a",
+      "metric": "impressions",
+      "value": 2500,
+      "unit": "count",
+      "dimensions": {
+        "query_group": "commercial"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "project_id": "project-demo",
+      "organization_id": "org-demo",
+      "provider": "google-analytics-4",
+      "channel": "organic_search",
+      "asset_id": "ga4-demo",
+      "object_type": "landing_page",
+      "object_id": "/service-a",
+      "metric": "sessions",
+      "value": 150,
+      "unit": "count",
+      "dimensions": {
+        "device": "mobile"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "project_id": "project-demo",
+      "organization_id": "org-demo",
+      "provider": "crm",
+      "channel": "organic_search",
+      "asset_id": "pipeline-demo",
+      "object_type": "landing_page",
+      "object_id": "/service-a",
+      "metric": "qualified_leads",
+      "value": 7,
+      "unit": "count",
+      "dimensions": {}
+    },
+    {
+      "date": "2026-07-01",
+      "project_id": "project-demo",
+      "organization_id": "org-demo",
+      "provider": "crm",
+      "channel": "organic_search",
+      "asset_id": "pipeline-demo",
+      "object_type": "landing_page",
+      "object_id": "/service-a",
+      "metric": "revenue",
+      "value": 42000000,
+      "unit": "currency",
+      "currency": "VND",
+      "dimensions": {}
+    }
+  ]
+}

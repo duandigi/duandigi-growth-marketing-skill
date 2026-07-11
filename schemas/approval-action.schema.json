@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Approval action",
+  "type": "object",
+  "required": [
+    "action_id",
+    "organization_id",
+    "project_id",
+    "provider",
+    "asset_id",
+    "action_type",
+    "approval_tier",
+    "status",
+    "requested_by"
+  ],
+  "properties": {
+    "action_id": {
+      "type": "string"
+    },
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "asset_id": {
+      "type": "string"
+    },
+    "action_type": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "approval_tier": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "pending",
+        "approved",
+        "rejected",
+        "expired",
+        "executing",
+        "verified",
+        "failed",
+        "rolled_back"
+      ]
+    },
+    "requested_by": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expires_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preview": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rollback": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limits": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

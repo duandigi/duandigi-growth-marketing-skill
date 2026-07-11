@@ -1,0 +1,21 @@
+{
+  "provider": "wordpress",
+  "auth_type": "application_password_or_connector_plugin",
+  "default_mode": "observe",
+  "assets": [
+    "site"
+  ],
+  "capabilities": [
+    "read_content",
+    "read_site_metadata",
+    "prepare_draft",
+    "prepare_metadata_change"
+  ],
+  "notes": [
+    "Use HTTPS, a dedicated low-privilege user, and an individually revocable Application Password. Publishing is not a default capability."
+  ],
+  "official_docs": [
+    "https://developer.wordpress.org/advanced-administration/security/application-passwords/",
+    "https://developer.wordpress.org/rest-api/"
+  ]
+}

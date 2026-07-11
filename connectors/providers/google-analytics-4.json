@@ -1,0 +1,20 @@
+{
+  "provider": "google-analytics-4",
+  "auth_type": "oauth2",
+  "default_mode": "observe",
+  "assets": [
+    "account",
+    "property"
+  ],
+  "capabilities": [
+    "list_assets",
+    "read_reports",
+    "read_metadata"
+  ],
+  "notes": [
+    "Keep analytics events separate from CRM-qualified and business-confirmed outcomes."
+  ],
+  "official_docs": [
+    "https://developers.google.com/analytics/devguides/reporting/data/v1"
+  ]
+}

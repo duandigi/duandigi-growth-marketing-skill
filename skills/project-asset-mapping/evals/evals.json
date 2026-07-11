@@ -1,0 +1,23 @@
+{
+  "skill_name": "project-asset-mapping",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Map one Google login containing twelve GSC properties, ten GA4 properties, four ad accounts, and six WordPress sites to eight projects.",
+      "expected_output": "A reviewable asset mapping with explicit identifiers, evidence, ambiguous cases, shared assets, and approval rules.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Two projects share one Meta ad account but use separate campaigns and landing pages. Define the mapping.",
+      "expected_output": "Models a shared asset with project-level filters and warns against account-total attribution.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Automatically assign every asset whose name contains “Duan” to the Duan Digi project.",
+      "expected_output": "Refuses name-only mapping and requires stronger evidence or confirmation.",
+      "edge_case": true
+    }
+  ]
+}

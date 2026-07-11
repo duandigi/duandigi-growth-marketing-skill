@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "duan-growth-skills",
+  "displayName": "Duan Growth Skills",
+  "version": "0.2.0",
+  "description": "Evidence-first growth strategy, multi-channel data integration, AI evaluation, experimentation, approval, and ethical optimization skills.",
+  "author": {
+    "name": "Duan Digi",
+    "url": "https://github.com/duandigi"
+  },
+  "homepage": "https://github.com/duandigi/duan-growth-skills",
+  "repository": "https://github.com/duandigi/duan-growth-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ai-evaluation",
+    "analytics",
+    "attribution",
+    "experimentation",
+    "growth-hacking",
+    "growth-loops",
+    "growth-marketing",
+    "marketing-analytics",
+    "multi-channel",
+    "oauth"
+  ]
+}

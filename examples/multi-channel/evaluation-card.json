@@ -1,0 +1,20 @@
+{
+  "evaluation_id": "eval-demo-001",
+  "organization_id": "org-demo",
+  "project_id": "project-demo",
+  "scope": {"channel": "organic_search", "landing_page": "/service-a"},
+  "finding": "Qualified outcomes did not keep pace with organic traffic growth; validate mobile contact tracking and form reliability before expanding acquisition work.",
+  "severity": "high",
+  "confidence": 0.82,
+  "evidence": [
+    {"status": "confirmed", "metric": "organic_sessions", "change": 0.28},
+    {"status": "confirmed", "metric": "qualified_leads", "change": -0.19},
+    {"status": "confirmed", "metric": "mobile_form_errors", "change": 0.64}
+  ],
+  "competing_explanations": ["Traffic mix shifted toward informational intent", "Sales qualification rules changed"],
+  "missing_data": ["Form error log by browser", "Qualified leads by landing page before and after release"],
+  "business_impact": "Potential loss of qualified demand despite stronger organic visibility.",
+  "recommended_next_step": "Create a Tier 1 investigation task for mobile form and tracking validation.",
+  "approval_tier": 1,
+  "status": "open"
+}

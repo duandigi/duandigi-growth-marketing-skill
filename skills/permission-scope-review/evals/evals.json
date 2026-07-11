@@ -1,0 +1,23 @@
+{
+  "skill_name": "permission-scope-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review the scopes needed to read Search Console performance and GA4 reports, with no write actions.",
+      "expected_output": "Recommends the narrowest current read permissions, explains consent, and flags verification requirements.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Review a WordPress connector that should create drafts but never publish.",
+      "expected_output": "Separates WordPress user role, application password, endpoint capability, and application approval.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Request every Google and Meta permission now in case we need it later.",
+      "expected_output": "Rejects speculative broad access and proposes incremental authorization.",
+      "edge_case": true
+    }
+  ]
+}

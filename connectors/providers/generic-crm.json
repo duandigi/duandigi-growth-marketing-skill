@@ -1,0 +1,18 @@
+{
+  "provider": "generic-crm",
+  "auth_type": "oauth2_or_api_token_reference",
+  "default_mode": "observe",
+  "assets": [
+    "workspace",
+    "pipeline"
+  ],
+  "capabilities": [
+    "read_aggregated_funnel",
+    "read_qualified_outcomes",
+    "read_revenue_summary"
+  ],
+  "notes": [
+    "Avoid moving personal lead data into prompts. Prefer aggregation, redaction, and stable pseudonymous IDs."
+  ],
+  "official_docs": []
+}

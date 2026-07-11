@@ -1,0 +1,23 @@
+{
+  "provider": "meta-marketing",
+  "auth_type": "oauth2",
+  "default_mode": "observe",
+  "assets": [
+    "business",
+    "ad_account",
+    "page",
+    "instagram_business_account"
+  ],
+  "capabilities": [
+    "list_assets",
+    "read_ads_insights",
+    "read_page_or_profile_insights",
+    "prepare_change"
+  ],
+  "notes": [
+    "Permissions and app review depend on use case. Verify current Meta permission mapping."
+  ],
+  "official_docs": [
+    "https://developers.facebook.com/docs/permissions/"
+  ]
+}

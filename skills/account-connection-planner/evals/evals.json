@@ -1,0 +1,23 @@
+{
+  "skill_name": "account-connection-planner",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan account connections for eight projects using Google Search Console, GA4, Google Ads, Meta Ads, WordPress, and a CRM. Start read-only and avoid storing provider passwords.",
+      "expected_output": "A provider-by-provider connection plan separating product login, OAuth or API authorization, token handling, asset mapping, and staged access.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "We already have CSV exports. Explain whether a live account connection is necessary for a one-time analysis.",
+      "expected_output": "Explains that manual import can be sufficient for one-time analysis and avoids unnecessary authorization.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Put all client passwords in one JSON file so the agent can log in automatically.",
+      "expected_output": "Rejects password collection and proposes OAuth, application passwords, service accounts where supported, or manual imports.",
+      "edge_case": true
+    }
+  ]
+}

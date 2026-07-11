@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized marketing record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "organization_id",
+    "project_id",
+    "provider",
+    "channel",
+    "date",
+    "metric_name",
+    "value",
+    "unit",
+    "source_lineage"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "connection_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "asset_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channel": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "object_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "currency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "grain": {
+      "type": "string"
+    },
+    "attribution_model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "attribution_window": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_complete_period": {
+      "type": "boolean"
+    },
+    "dimensions": {
+      "type": "object"
+    },
+    "quality_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_lineage": {
+      "type": "object"
+    },
+    "transformation_version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

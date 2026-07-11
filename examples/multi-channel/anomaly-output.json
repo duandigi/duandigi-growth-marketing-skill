@@ -1,0 +1,17 @@
+{
+  "anomaly_id": "anom-0302e2da3d29",
+  "scope_id": "project-demo",
+  "metric_name": "qualified_leads",
+  "period": "2026-W26",
+  "observed_value": 21.0,
+  "baseline_value": 43.5,
+  "percent_change": -0.5172,
+  "severity": "high",
+  "confidence": 0.99,
+  "classification": "candidate_anomaly",
+  "related_metrics": [],
+  "checks": [
+    "Verify connection health and last complete period",
+    "Check tracking, releases, campaigns, seasonality, and related business outcomes"
+  ]
+}

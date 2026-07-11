@@ -1,0 +1,20 @@
+{
+  "provider": "google-ads",
+  "auth_type": "oauth2_plus_developer_token",
+  "default_mode": "observe",
+  "assets": [
+    "manager_account",
+    "customer_account"
+  ],
+  "capabilities": [
+    "list_assets",
+    "read_reporting",
+    "prepare_change"
+  ],
+  "notes": [
+    "Production API access may require developer-token approval. Spend or delivery changes require explicit approval."
+  ],
+  "official_docs": [
+    "https://developers.google.com/google-ads/api/docs/oauth/overview"
+  ]
+}

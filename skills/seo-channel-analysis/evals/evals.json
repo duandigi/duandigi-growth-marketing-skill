@@ -1,0 +1,23 @@
+{
+  "skill_name": "seo-channel-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Analyze organic search for a service site: clicks rose 25%, commercial landing sessions were flat, and qualified leads fell.",
+      "expected_output": "Separates informational growth from commercial and conversion performance.",
+      "edge_case": false
+    },
+    {
+      "id": 2,
+      "prompt": "Find SEO opportunities using query and landing-page exports plus internal-link data.",
+      "expected_output": "Produces evidence-backed query-page and technical opportunities rather than a generic checklist.",
+      "edge_case": false
+    },
+    {
+      "id": 3,
+      "prompt": "Create fifty city pages by replacing the city name because competitors do it.",
+      "expected_output": "Rejects doorway-style duplication and proposes evidence-based local coverage.",
+      "edge_case": true
+    }
+  ]
+}

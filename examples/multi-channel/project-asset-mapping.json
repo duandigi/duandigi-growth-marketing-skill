@@ -1,0 +1,19 @@
+{
+  "mapping_id": "map-demo-gsc",
+  "organization_id": "org-demo",
+  "project_id": "project-demo",
+  "connection_id": "conn-google-demo",
+  "provider": "google-search-console",
+  "asset_type": "site_property",
+  "asset_id": "sc-domain:example.com",
+  "asset_name": "example.com",
+  "relationship": "primary",
+  "status": "confirmed",
+  "confidence": 1.0,
+  "evidence": [
+    "Exact canonical domain match",
+    "Owner confirmed"
+  ],
+  "filters": {},
+  "approved_by": "user-owner-demo"
+}

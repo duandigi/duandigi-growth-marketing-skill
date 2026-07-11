@@ -1,0 +1,39 @@
+name: Connector or data-contract feedback
+description: Report a sanitized provider, mapping, normalization, permission, or data-quality case.
+title: "[Connector] "
+labels: [connector, evaluation]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include tokens, secrets, account IDs that identify clients, or personal customer data."
+  - type: input
+    id: provider
+    attributes:
+      label: Provider or data source
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case and expected decision
+    validations:
+      required: true
+  - type: textarea
+    id: sanitized_shape
+    attributes:
+      label: Sanitized data shape or contract issue
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Observed result and proposed improvement
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I removed credentials, personal data, and confidential client identifiers.
+          required: true

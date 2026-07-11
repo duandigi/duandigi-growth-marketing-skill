@@ -2,7 +2,7 @@
 
 ## Suggested repository settings
 
-- Repository: `duan-growth-skills`
+- Repository: `duandigi-growth-marketing-skill`
 - Description: `Evidence-first Agent Skills for multi-channel growth intelligence, secure account integration, AI evaluation, experimentation, and approval.`
 - Website: `https://duandigi.com`
 - License: MIT
@@ -33,7 +33,7 @@ git init
 git add .
 git commit -m "feat: publish Duan Growth Skills v0.2.0"
 git branch -M main
-git remote add origin https://github.com/duandigi/duan-growth-skills.git
+git remote add origin https://github.com/duandigi/duandigi-growth-marketing-skill.git
 git push -u origin main
 ```
 

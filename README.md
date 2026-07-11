@@ -71,23 +71,23 @@ Provider accounts → connections → asset mapping → collectors
 After publication:
 
 ```text
-/plugin marketplace add duandigi/duan-growth-skills
-/plugin install duan-growth-skills@duan-growth
+/plugin marketplace add duandigi/duandigi-growth-marketing-skill
+/plugin install duandigi-growth-marketing-skill@duan-growth
 ```
 
 Local test:
 
 ```bash
-claude --plugin-dir ./duan-growth-skills
+claude --plugin-dir ./duandigi-growth-marketing-skill
 ```
 
 Example commands:
 
 ```text
-/duan-growth-skills:account-connection-planner
-/duan-growth-skills:ai-marketing-evaluator
-/duan-growth-skills:seo-channel-analysis
-/duan-growth-skills:action-approval-planner
+/duandigi-growth-marketing-skill:account-connection-planner
+/duandigi-growth-marketing-skill:ai-marketing-evaluator
+/duandigi-growth-marketing-skill:seo-channel-analysis
+/duandigi-growth-marketing-skill:action-approval-planner
 ```
 
 ### Other Agent Skills-compatible clients

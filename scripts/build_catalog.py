@@ -50,7 +50,7 @@ def build() -> dict[str, object]:
                 "path": f"skills/{path.name}",
             }
         )
-    return {"repository": "duandigi/duan-growth-skills", "version": "0.2.0", "skills": entries}
+    return {"repository": "duandigi/duandigi-growth-marketing-skill", "version": "0.2.0", "skills": entries}
 
 
 def main() -> int:

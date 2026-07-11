@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "duan-growth-skills",
+      "name": "duandigi-growth-marketing-skill",
       "source": ".",
       "description": "Evidence-first growth strategy, account integration, multi-channel AI evaluation, experimentation, and approval skills",
       "version": "0.2.0"
